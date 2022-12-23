@@ -1,0 +1,82 @@
+@font-face {
+    font-family:'iran-sans';
+    src: url('../font/Iranian\ Sans.ttf');
+}
+
+
+div.icondigi{
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    width:100% ;
+    height: 100px;
+    text-align: center;
+}
+div.icondigi>figure{
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+
+
+}
+div.icondigi>figure>a{
+    width: 100%;
+    height: 40px;
+    font-family:'iran-sans';
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+div.icondigi>img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div.icondigi>figure>div.plus{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(240, 240, 241);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.icondigi>figure>div.plus>a{
+    width: inherit;
+    height: inherit;
+    display: block;
+    font-family:'iran-sans';
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    line-height:50px;
+    font-size: 14px; 
+    
+
+}
+div.icondigi>figure>div.plus>label{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color:  rgb(161, 163, 168);;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px /2);
+    top: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#plus{
+    display: none;
+}
